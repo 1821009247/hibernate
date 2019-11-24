@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springhibernate:war">
+    <output-path>$PROJECT_DIR$/springhibernate/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springhibernate</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="spring-hibernate.war">
+      <element id="artifact" artifact-name="springhibernate:war exploded" />
+    </root>
+  </artifact>
+</component>
